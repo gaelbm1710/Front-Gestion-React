@@ -1,6 +1,5 @@
 import React from "react";
 import javaReactImg from "../assets/javareact.png";
-import vercelImg from "../assets/verceljpeg.jpg";
 
 function InicioComponenten() {
   return (
@@ -23,18 +22,6 @@ function InicioComponenten() {
               <p className="card-text text-secondary">
                 En este sitio se prueban APIs desarrolladas con Java y el Front
                 está creado con React JS.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-md-5">
-          <div className="custom-card card h-100 text-center">
-            <img src={vercelImg} className="card-img-top" alt="Vercel" />
-            <div className="card-body">
-              <p className="card-text text-secondary">
-                Este sitio se encuentran desplegados en Vercel por su acceso
-                gratuito.
               </p>
             </div>
           </div>
