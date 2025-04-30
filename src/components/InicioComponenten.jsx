@@ -1,40 +1,40 @@
 import React from "react";
+import javaReactImg from "../assets/javareact.png";
+import vercelImg from "../assets/verceljpeg.jpg";
 
 function InicioComponenten() {
   return (
-    <div className="container">
-      <h1 className="text-center">Bienvenido</h1>
-      <h6 className="text-center">
-        Hola, este es un simulador pequeño de una empresa ficticia en el cual
-        podrás ver, agregar, eliminar y editar empleados, departamentos y
-        puestos.
-      </h6>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <img
-                class="card-img-top"
-                src="src\assets\javareact.png"
-                alt="Card image cap"
-              ></img>
-              <p class="card-text">
-                En este sitio se prueban APIS desarrolladas con Java y el Front
-                esta desarrollado con React JS.
+    <div className="inicio-container py-5">
+      <h1 className="text-center mb-3 display-5 fw-bold">Bienvenido</h1>
+      <p className="text-center text-muted fs-6 mb-5 px-3">
+        Este es un simulador de una empresa ficticia donde podrás gestionar
+        empleados, departamentos y puestos.
+      </p>
+
+      <div className="row justify-content-center g-4">
+        <div className="col-md-5">
+          <div className="custom-card card h-100 text-center">
+            <img
+              src={javaReactImg}
+              className="card-img-top"
+              alt="Java y React"
+            />
+            <div className="card-body">
+              <p className="card-text text-secondary">
+                En este sitio se prueban APIs desarrolladas con Java y el Front
+                está creado con React JS.
               </p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <img
-                class="card-img-top"
-                src="src\assets\verceljpeg.jpg"
-                alt="Card image cap"
-              ></img>
-              <p class="card-text">
-                Este sitio y el backend se encuentran desplegados en Vercel.
+
+        <div className="col-md-5">
+          <div className="custom-card card h-100 text-center">
+            <img src={vercelImg} className="card-img-top" alt="Vercel" />
+            <div className="card-body">
+              <p className="card-text text-secondary">
+                Este sitio se encuentran desplegados en Vercel por su acceso
+                gratuito.
               </p>
             </div>
           </div>

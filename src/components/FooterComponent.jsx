@@ -2,9 +2,12 @@ import React from "react";
 
 function FooterComponent() {
   return (
-    <footer className="bg-dark text-white text-center py-3 mt-5">
-      <div className="container">
-        <span>Todos los derechos reservados 2025 por Carlo Bañuelos.</span>
+    <footer className="custom-footer mt-auto py-3">
+      <div className="container text-center text-white">
+        <small>
+          &copy; {new Date().getFullYear()} Carlo Bañuelos. Todos los derechos
+          reservados.
+        </small>
       </div>
     </footer>
   );

@@ -4,3 +4,39 @@
   text-align: center;
   padding: 1rem;
 }
+
+.custom-footer {
+  background: linear-gradient(90deg, #212529, #343a40);
+  color: #ffffff;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.custom-navbar {
+  background: linear-gradient(90deg, #212529, #343a40);
+}
+
+.inicio-container {
+  background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+  min-height: 100vh;
+  padding-top: 4rem;
+}
+
+.custom-card {
+  border: none;
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  max-height: 200px;
+  object-fit: cover;
+}
